@@ -1,0 +1,282 @@
+@font-face {font-family: "DINNextW01-Regular"; src: url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.eot"); src: url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.woff") format("woff"), url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.svg#DINNextW01-Regular") format("svg"); }
+
+body {
+   font-family: "DINNextW01-Regular", Helvetica, Arial, sans-serif;
+   background-image: url("..//StaticLayout/assets/navigation_stars.jpg");
+   margin: 0px 8px;
+}
+
+#div-wrapper {
+    display: block;
+    position: relative;
+}
+
+#entire-header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-image: url("..//StaticLayout/assets/navigation_stars.jpg");
+    z-index: 5;
+    padding-top: 5px;
+}
+
+#above-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.social-links {
+    margin-right: auto;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.social-icons {
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    list-style-type: none;
+}
+
+.social-icons img {
+    height: 20px;
+    width: 20px;
+}
+
+.social-icons li {
+    display: inline-block;
+    padding: 2px;
+}
+
+.social-icons img:hover {
+    opacity: 66%;
+}
+
+#signup button:hover, #login button:hover, #nav-content a:hover {
+    color: #ccc;
+}
+
+#kid:before {
+    content: "";
+    position: absolute;
+    border-top: 1px solid #343434;
+    top: -4px;
+    width: 1px;
+    height: 28px;
+    background: #343434;
+    left: -6px;
+}
+
+#kid {
+    background: #7a7a7a;
+    border-radius: 16px;
+    width: 40px;
+    height: 15px;
+    margin: 3px 0 0 10px;
+    display: inline-block;
+    position: relative;
+}
+
+#kid img {
+    position: absolute;
+    width: 31px;
+    height: 9px;
+    margin: -3px 0px 0px -5px;
+    top: 8px;
+    left: 12px;
+}
+
+#logo img {
+    max-width: 200px;
+}
+
+#search-bar-container {
+    background-color: #343434;
+    opacity: 0.7;
+    height: 40px;
+    display: flex;
+    position: relative;
+    margin-right: 10px;
+    width: 248px;
+    border-radius: 4px;
+    
+}
+
+#search-input {
+padding-left: 20px;
+width: 80%;
+background-color: transparent;
+border: 0;
+font-size: 1em;
+color: #fff;
+font-family: "DINNextW01-Regular";
+}
+
+#search-input:focus {
+    outline: none;
+}
+
+#search-button {
+    background-image: url(https://static-mh.content.disney.io/starwars/assets/navigation/icon_search-957a123fdb62.svg);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    margin: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+#user-control {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+#user-control button {
+     white-space: nowrap;
+    font-size: 0.875em;
+    letter-spacing: 2px;
+    color: #999;
+    text-transform: uppercase;
+   background-color: transparent;
+   border: none;
+   font-family: "DINNextW01-Regular";
+}
+
+#user-control p {
+    color: #343434;
+    padding: 0;
+    font-size: 1em;
+    margin-block-start: 0
+}
+
+#nav-content {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#nav-content ul{
+    display: flex;
+    flex: row nowrap;
+    justify-content: center;
+    list-style-type: none;
+    border-bottom: 1px solid #343434;
+    border-top: 1px solid #343434;
+    margin-bottom: 0px;
+    padding-inline-start: 0px;
+}
+
+#nav-content li {
+    padding: 12px 32px 12px 32px;
+    border-right: 1px solid #343434;
+    border-left: 1px solid #343434;
+}
+
+#nav-content li a {
+    color: #999;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#header-section {
+    margin-top: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+#main a {
+    text-decoration: none;
+}
+
+#title-text {
+    color: #999;
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+
+#disney-plus-icon img {
+    height: 26px;
+    margin-left: 0px;
+}
+
+#main img {
+    width: 100%;
+}
+
+#sectionOne {
+    margin-bottom: 1em;
+}
+
+#sectionTwo-footer {
+    margin-top: -6px;;
+}
+
+.content-block-one {
+    max-width: 36%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+}
+
+.content-description {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    letter-spacing: 0.0125rem;
+    line-height: 24px;
+    color: #f8f8f8;
+}
+
+.button-container {
+    margin-top: 20px;
+    margin-right: -20px;
+}
+
+.cta {
+    margin-right: 20px;
+}
+
+.cta a {
+    padding: 10px 32px 7px;
+    border-radius: 4px;
+}
+
+.cta a:hover {
+    opacity: 80%;
+}
+
+.content-title img {
+    width: 100%;
+}
+
+#sectionTwo .content-block-two {
+    max-width: 36%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+}
