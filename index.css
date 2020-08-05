@@ -237,11 +237,7 @@ font-family: "DINNextW01-Regular";
     bottom: 0;
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     padding: 1rem 5rem 5rem 5rem;
-=======
-    padding: 1rem 5rem 1rem 5rem;
->>>>>>> 2adce328804b0ec5b4c8ce9dab3b1ff349e76ecd
 }
 
 .content-description {
