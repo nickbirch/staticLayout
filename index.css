@@ -234,7 +234,7 @@ font-family: "DINNextW01-Regular";
     max-width: 36%;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -85px;
     display: flex;
     flex-direction: column;
     padding: 1rem 5rem 5rem 5rem;
